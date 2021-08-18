@@ -4,7 +4,6 @@ import Card from "../UI/Card";
 import ExpensesFilter from "./ExpensesFilter";
 import ExpensesList from "./ExpensesList";
 const Expenses = (props) => {
-  // const expenses = props.expenses;
   const [enteredYear, setEnteredYear] = useState("2021");
   const yearChangeHandler = (selectedYear) => {
     console.log("Expenses.js");
